@@ -1,0 +1,565 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* Header Section Start */ 
+
+.out-header{
+    width: 100%;
+    height: 80px;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, .05);
+    /* position: fixed; */
+}
+
+
+
+.container{
+    width: 1420px;
+    height: 80px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; 
+}
+
+.logo img{
+    width: 53px;
+    height: 36px;
+}
+
+.header-menu{
+    display: flex;
+    
+}
+
+.menu-itmes{
+    margin-left: 35px;
+    
+    
+    
+}
+
+.menu-itmes a{
+    text-transform: uppercase;
+    color: #282c3f;
+    font-weight: 700;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+sup{
+    color: #ff3f6c;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.header-input-section{
+    display: flex;
+    width: 523px;
+    align-items: center;
+    height: 40px;
+    border-radius: 3px;
+    margin-left: 30px;
+    background-color: #f5f5f6;
+}
+
+.search-button{
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-button i{
+    color: #696e79;
+    font-size: 15px;
+}
+
+.input-section{
+    margin-left: 18px;
+    color: #696e79;
+    height: 20px;
+}
+
+.input-section input{
+    width: 300px;
+    background-color: #f5f5f6;
+    border: none;
+    outline: none;
+}
+
+.icon-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+    
+    gap: 5px;
+}
+
+.icon-section span{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+   
+}
+
+/* Header Section End */ 
+
+/* Index Page First Banner Section Start */ 
+
+.first-banner{
+    width: 100%;
+    
+}
+
+.first-banner-container{
+    width: 1321px;
+    /* height: 450px; */
+    margin: auto;
+}
+
+.first-banner-container img{
+    width: 1321px;
+    margin-top: 20px;
+}
+
+/* Index Page First Banner Section End */ 
+
+
+/* Index Page Combined Images Section Start */ 
+
+.combined-images{
+    width: 1300px;
+    margin: auto;
+    display: flex;
+}
+
+.first-image img{
+    width: 660px;
+    height: 346px;
+}
+
+.second-image img{
+    width: 660px;
+    height: 346px;
+}
+
+/* Index Page Combined Images Section End */ 
+
+
+/* Index Page Cashback Section Start */
+
+.cashback-section{
+    width: 1320px;
+    margin: auto;
+}
+
+.cashback-section img{
+    width: 1320px;
+    height: 134px;
+}
+ 
+
+/* Index Page Cashback Section End */
+
+/* Index Page Coupon Section End */
+
+.coupon-section{
+    width: 1320px;
+    margin: auto;
+}
+
+.coupon-section img{
+    width: 1320px;
+    height: 134px;
+}
+ 
+/* Index Page Coupon Section End */
+
+
+/* Index Page Flat Section Start */
+
+.flat-section{
+    width: 1320px;
+    margin: auto;
+    display: flex;
+}
+
+/* Index Page Flat Section End */
+
+
+/* Index Page Deals Section Start */
+
+.deal-section{
+    width: 1320px;
+    margin: auto;
+}
+
+.deal-section img{
+    width: 1320px;
+    height: 137px;
+}
+
+/* Index Page Deals Section End */
+
+
+/* Index Page Slider Section Start */
+
+.slider-section{
+    width: 1320px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.slider-images-row{
+    display: flex;
+}
+
+.slider-image img{
+    width: 264px;
+    height: 438px;
+}
+
+
+/* Index Page Slider Section End */
+
+
+/* Index Page Shop By Category Section Start */
+
+.shop-section{
+    width: 1320px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.shop-category-image img{
+    width: 1320px;
+    height: 137px;
+}
+
+/* Index Page Shop By Category Section End */
+
+
+/* Index Page Picture Section Start */
+
+.picture-section{
+    width: 1320px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.picture-row{
+    display: flex;
+}
+
+.pictures img{
+    width: 220px;
+    height: 290px;
+}
+
+
+/* Index Page Picture Section End */
+
+
+/* Index Page Offers Section Start */
+
+.offer-section{
+    width: 1320px;
+    margin: auto;
+}
+
+.offer-section img{
+    width: 1320px;
+    height: 240px;
+}
+
+/* Index Page Offers Section End */
+
+/* Home Page Banner Section Start */
+
+.banner-section{
+    width: 100%;
+}
+
+.banner-image{
+    width: 1420px;
+    margin: auto;
+    
+    margin-top: 20px;
+}
+
+.banner-image img{
+    width: 1400px;
+    height: 360px;
+}
+
+
+/* Home Page Banner Section End */
+
+
+/* Home Page Nice Section Start */
+
+.nice-section{
+    width: 100%;
+    
+}
+
+.nice-text{
+    width: 1026px;
+    height: 47px;
+    padding: 70px 40px 90px 40px;
+}
+
+.nice-text h4{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 3px;
+}
+.nice-container{
+    width: 1400px;
+    height: 1450px;
+    margin: auto;
+    display: flex;
+}
+
+.images-nice{
+    width: 1026px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.right-container-nice{
+    width: 400px;
+    height: 1000px;
+    margin-left: 30px;
+}
+
+.navi-link{
+    margin-top: 20px;
+}
+
+.navi-link a{
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 15px; 
+    color: #3e4152;
+}
+
+.navi-lists{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    
+   
+}
+
+.navi-lists a{
+    color: #3e4152;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+/* Home Page Nice Section End */
+
+
+
+/* Home Page Get-Inspired Section Start */
+
+.get-inspired-section{
+    width: 100%;
+    margin-top: 40px;
+}
+
+.get-inspired-section img{
+    width: 100%;
+    height: 205px;
+}
+
+/* Home Page Get-Inspired Section End */
+
+
+/* Home Page Three Image Section Start */
+
+
+.three-images{
+    width: 100%;
+    background-color: #efeded;
+    height: 556px;
+    margin-top: -4px;
+}
+
+.image-container{
+    width: 1400px;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* Home Page Three Image Section End */
+
+
+/* Home Page Brand Section Start */
+
+.brand-section{
+    width: 100%;
+    
+}
+
+.brands{
+    width: 1400px;
+    margin: auto;
+}
+
+.brands img{
+    width: 1400px;
+    height: 186px;
+}
+
+.brands-name{
+    width: 1400px;
+    height: 245px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* Home Page Brand Section End */
+
+
+/* Footer Section Start */
+
+.footer-section{
+    width: 100%;
+    background-color: #fafbfc;
+    margin-top: 40px;
+}
+
+.footer-container{
+    width: 1400px;
+    height: 380px;
+    margin: auto;
+   
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+
+.footer-col-1 p{
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #282c3f;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.footer-col-2 p{
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #282c3f;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.footer-col-3 p{
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #282c3f;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.buttons{
+    display: flex;
+    margin-top: 25px;
+   
+}
+
+.google-play img{
+    width: 140px;
+    height: 42px;
+}
+
+.app-store img{
+    width: 122px;
+    height: 42px;
+    margin-left: 18px;
+}
+
+.keep-touch{
+    font-size: 12px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.social-links{
+    display: flex;
+    gap: 10px;
+    margin-top: 18px;
+}
+.footer-col-4 p{
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #282c3f;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+
+
+.lists{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+   
+}
+
+.lists a{
+    color: #696b79;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.left-footer-1{
+    display: flex;
+    gap: 10px;
+}
+
+.left-footer-2{
+    display: flex;
+    margin-top: 30px;
+    gap: 10px;
+}
+
+.footer-text{
+    color: #696b79;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    
+}
+
+.footer-text strong{
+    color: #282c3f;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.image-footer img{
+    width: 48px;
+    height: 40px;
+}
+
+/* Footer Section End */
